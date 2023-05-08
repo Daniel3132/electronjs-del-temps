@@ -1,0 +1,3 @@
+function beginProcess() {
+  alert("begining")
+}

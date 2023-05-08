@@ -5,15 +5,22 @@
   <meta charset="UTF-8">
   <title>Hello World!</title>
   <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  <link rel="stylesheet" href="./styles/index.css">
 </head>
 
 <body>
-  <h1>Helloo World!</h1>
+  <h1>Pc cleaner!</h1>
   <p>
     We are using Node.js <span id="node-version"></span>,
     Chromium <span id="chrome-version"></span>,
     and Electron <span id="electron-version"></span>.
   </p>
+  <a href="./pages/one.html">go to one</a>
+  <br>
+
+  <button onclick="deleteTemps()">Delete Temps</button>
 </body>
+
+<script src="./scripts/deleteTemps.js"></script>
 
 </html>
